@@ -6,7 +6,7 @@ from typing import TypedDict
 from random import choices, randint
 
 
-# Explicit type hinting the flags used via a dictionary
+# Explicit type hinting the flags used via TypedDict for dictionary
 class BooleanFlags(TypedDict):
     uppercase_character: bool
     lowercase_character: bool
